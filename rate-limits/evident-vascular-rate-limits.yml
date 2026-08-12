@@ -1,0 +1,11 @@
+generated: '2026-08-12'
+method: searched
+source: https://evidentvascular.com/
+limit_count: 0
+limits: []
+note: >-
+  No rate limits are documented because Evident Vascular publishes no API.
+  There is no developer portal, no API reference and no API host (api.,
+  developer. and docs..evidentvascular.com are NXDOMAIN), so there is no
+  runtime surface on which limits or RateLimit-* / Retry-After headers could
+  be observed. Honest zero.

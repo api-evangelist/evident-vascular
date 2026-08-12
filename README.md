@@ -42,5 +42,10 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Evident Vascular is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://www.nasdaqprivatemarket.com/
+Evident Vascular, Inc. is a San Jose, California medical device company developing the Evident Vascular Guidance System, an AI-powered intravascular ultrasound (IVUS) platform purpose-built for peripheral vascular image-guided therapy, with future capability intended for coronary procedures. The company came out of stealth in 2023 with a $35M Series A led by Vensana Capital and closed a Series B in March 2025 with Shangbay Capital and strategic investors, funding work toward FDA 510(k) clearance and a U.S. launch.
+
+**No API surface.** Evident Vascular publishes no developer program, API, SDK, or machine-readable interface on its public web surface. See `x-coverage` in `apis.yml` and `well-known/evident-vascular-well-known.yml` for the probe record.
+
+- https://evidentvascular.com/
+- https://evidentvascular.com/our-solution/
+- https://evidentvascular.com/newsroom/

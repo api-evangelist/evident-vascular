@@ -1,0 +1,58 @@
+generated: '2026-08-12'
+method: probed
+source: https://evidentvascular.com/.well-known/
+host: https://evidentvascular.com
+note: >-
+  Every /.well-known/ path probed on the only host Evident Vascular operates
+  (evidentvascular.com) returned 404 from nginx. No WellKnown or SecurityTxt
+  pointer is emitted in apis.yml, because nothing on this host serves a
+  discovery document. No API subdomain exists to probe: api., developer.,
+  docs., app., portal., status. and trust..evidentvascular.com are all
+  NXDOMAIN. The marketing site is WordPress (Flywheel-hosted, Yoast SEO) and
+  its default CMS endpoint at /wp-json/ answers 200 with the WordPress REST
+  API discovery document; that is the content-management surface of the
+  website, not a product API Evident Vascular publishes, so it is recorded
+  here and deliberately NOT registered as an API entry.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /.well-known/agent-card.json
+  status: 404
+- path: /.well-known/agent.json
+  status: 404
+other_probes:
+- path: /openapi.json
+  status: 404
+- path: /swagger.json
+  status: 404
+- path: /api-docs
+  status: 404
+- path: /docs
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /developers
+  status: 404
+- path: /pricing
+  status: 404
+- path: /security
+  status: 404
+- path: /trust
+  status: 404
+- path: /responsible-disclosure
+  status: 404
+- path: /wp-json/
+  status: 200
+  note: WordPress core REST API discovery document; website CMS, not a product API.
+- path: /robots.txt
+  status: 200
+- path: /sitemap.xml
+  status: 200

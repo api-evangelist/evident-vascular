@@ -1,0 +1,13 @@
+generated: '2026-08-12'
+method: searched
+source: npm, PyPI, RubyGems, crates.io, NuGet, Maven Central, pkg.go.dev, Packagist, GitHub
+package_count: 0
+packages: []
+note: >-
+  No first-party client library exists in any public package registry, and no
+  GitHub organization for Evident Vascular could be found. Searches for an
+  Evident Vascular SDK return only unrelated academic IVUS projects
+  (AI-in-Cardiovascular-Medicine/AIVUS-CAA, dmolony3/DeepIVUS) and the
+  similarly-named but entirely separate identity-verification company Evident
+  ID (evidentid.com / api.evident.com), which is NOT this company and is
+  deliberately excluded. No Packages or SDKs pointer is emitted in apis.yml.

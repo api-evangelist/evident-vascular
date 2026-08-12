@@ -1,23 +1,82 @@
 aid: evident-vascular
 name: Evident Vascular
-description: 'Evident Vascular is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: 'Evident Vascular, Inc. is a San Jose, California medical device company
+  developing the Evident Vascular Guidance System, an AI-powered intravascular ultrasound
+  (IVUS) platform purpose-built for peripheral vascular image-guided therapy, with
+  future capability intended for coronary procedures. The company came out of stealth
+  in 2023 with a $35M Series A led by Vensana Capital and closed a Series B in March
+  2025 with Shangbay Capital and strategic investors, funding work toward FDA 510(k)
+  clearance and a U.S. launch. The platform pairs an IVUS catheter and console with
+  machine-learning image interpretation intended to improve vessel assessment and
+  streamline the interventional workflow. Evident Vascular is pre-commercial and
+  publishes no developer program, API, SDK, or machine-readable interface on its
+  public web surface.'
+image: https://evidentvascular.com/wp-content/uploads/Evident_Vascular_Logo_White.png
 url: https://raw.githubusercontent.com/api-evangelist/evident-vascular/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-08-12'
 modified: '2026-08-12'
 tags:
 - Company
+- Medical Devices
+- Health
+- Imaging
+- Artificial Intelligence
+- Cardiovascular
+- Ultrasound
+- Medical Imaging
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-08-12'
+  status: minimal
+  artifacts_added: 6
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Evident Vascular is a pre-commercial medical device maker whose product is an
+    IVUS catheter and console awaiting FDA 510(k) clearance, so its five-page
+    WordPress marketing site has no developer section at all and every API host an
+    integrator would try (api., developer., docs., app., portal.evidentvascular.com)
+    is NXDOMAIN.
+  evidence:
+  - url: https://evidentvascular.com/developers
+    status: 404
+  - url: https://evidentvascular.com/openapi.json
+    status: 404
+  - url: https://evidentvascular.com/llms.txt
+    status: 404
+  - url: https://evidentvascular.com/.well-known/agent-card.json
+    status: 404
+  checked: '2026-08-12'
 common:
+- type: DomainSecurity
+  url: security/evident-vascular-domain-security.yml
+- type: LLMsTxt
+  url: llms/evident-vascular-llms.txt
+- type: Plans
+  url: plans/evident-vascular-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/evident-vascular-rate-limits.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://evidentvascular.com/
+- type: Blog
+  url: https://evidentvascular.com/newsroom/
+- type: BlogRSS
+  url: https://evidentvascular.com/newsroom/feed/
+- type: Support
+  url: https://evidentvascular.com/contact/
+- type: TermsOfService
+  url: https://evidentvascular.com/terms-of-service/
+- type: PrivacyPolicy
+  url: https://evidentvascular.com/privacy-policy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/evident-vascular/
