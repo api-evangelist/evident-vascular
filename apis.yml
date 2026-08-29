@@ -11,6 +11,17 @@ description: 'Evident Vascular, Inc. is a San Jose, California medical device co
   streamline the interventional workflow. Evident Vascular is pre-commercial and
   publishes no developer program, API, SDK, or machine-readable interface on its
   public web surface.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://evidentvascular.com/wp-content/uploads/Evident_Vascular_Logo_White.png
 url: https://raw.githubusercontent.com/api-evangelist/evident-vascular/refs/heads/main/apis.yml
 x-type: company
